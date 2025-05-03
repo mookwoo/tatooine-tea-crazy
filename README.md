@@ -33,12 +33,6 @@ Coming soon...
 
 📦 Deployment
 
-You can deploy this project for free using GitHub Pages:
-
-Push your code to a GitHub repo
-Go to Settings > Pages
-Select the main branch and /root folder
-Share your live link!
 ✨ Credits
 
 Made with 💻 by Brian W.
