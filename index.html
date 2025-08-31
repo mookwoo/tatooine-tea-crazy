@@ -6,7 +6,7 @@
   <title>The Tatooine Tea Cozy</title>
   <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-  <script src="script.js"></script>
+  <script src="scripts.js"></script>
 </head>
 <body>
 
@@ -17,6 +17,7 @@
       <a href="#jedi">Featured Jedi</a>
       <a href="#locations">Rebel Bases</a>
     </nav>
+    <button id="theme-toggle">🌗 Toggle Side</button>
   </header>
 
   <main>
@@ -38,6 +39,23 @@
       </div>
     </section>
 
+    <section id="force-forecast">
+      <h2>🌌 Force Forecast</h2>
+      <p>Your Daily Galactic Weather Report</p>
+      <div>
+        <h3>Tatooine</h3>
+        <p>☀️ Sunny with binary sunsets, high chance of sarlacc pit encounters</p>
+      </div>
+      <div>
+        <h3>Dagobah</h3>
+        <p>🌫️ Swampy and misty, perfect for Force training but terrible for droids</p>
+      </div>
+      <div>
+        <h3>Hoth</h3>
+        <p>❄️ Extremely cold, wampa activity high, recommend thermal underwear</p>
+      </div>
+    </section>
+
     <section id="locations" class="locations">
       <h2>Locations</h2>
       <div class="location-grid">
@@ -55,6 +73,32 @@
         </div>
       </div>
     </section>
+
+
+    <section id="converter">
+      <h2>💰 Galactic Credit Converter</h2>
+      <p>How many space tacos can you afford?</p>
+      <div>
+        <input type="number" id="credit-input" placeholder="Enter credits" min="0">
+        <button onclick="convert()">Convert to Tacos</button>
+      </div>
+      <p id="result"></p>
+    </section>
+
+    <section id="testimonials">
+      <h2>📜 Holocron Testimonials</h2>
+      <div>
+        <blockquote>
+          <p>"This tea is strong with the Force. I sense great wisdom in each sip."</p>
+          <cite>— Mace Windu</cite>
+        </blockquote>
+        <blockquote>
+          <p>"I find your lack of tea... disturbing. But this blend is most impressive."</p>
+          <cite>— Darth Vader</cite>
+        </blockquote>
+      </div>
+    </section>
+
   </main>
 
 <footer>
